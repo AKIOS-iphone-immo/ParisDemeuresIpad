@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83F7E3FA1439EFD200D0ACE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F7E3F91439EFD200D0ACE1 /* UIKit.framework */; };
+		83F7E3FC1439EFD200D0ACE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F7E3FB1439EFD200D0ACE1 /* Foundation.framework */; };
+		83F7E3FE1439EFD200D0ACE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F7E3FD1439EFD200D0ACE1 /* CoreGraphics.framework */; };
+		83F7E4041439EFD200D0ACE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83F7E4021439EFD200D0ACE1 /* InfoPlist.strings */; };
+		83F7E4071439EFD200D0ACE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F7E4061439EFD200D0ACE1 /* main.m */; };
+		83F7E40A1439EFD200D0ACE1 /* Paris_Demeures_IpadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F7E4091439EFD200D0ACE1 /* Paris_Demeures_IpadAppDelegate.m */; };
+		83F7E40D1439EFD200D0ACE1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83F7E40B1439EFD200D0ACE1 /* MainWindow.xib */; };
+		83F7E4101439EFD200D0ACE1 /* Paris_Demeures_IpadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F7E40F1439EFD200D0ACE1 /* Paris_Demeures_IpadViewController.m */; };
+		83F7E4131439EFD200D0ACE1 /* Paris_Demeures_IpadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83F7E4111439EFD200D0ACE1 /* Paris_Demeures_IpadViewController.xib */; };
+		83F7E41A1439EFD200D0ACE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F7E3F91439EFD200D0ACE1 /* UIKit.framework */; };
+		83F7E41B1439EFD200D0ACE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F7E3FB1439EFD200D0ACE1 /* Foundation.framework */; };
+		83F7E41C1439EFD200D0ACE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F7E3FD1439EFD200D0ACE1 /* CoreGraphics.framework */; };
+		83F7E4241439EFD200D0ACE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83F7E4221439EFD200D0ACE1 /* InfoPlist.strings */; };
+		83F7E4271439EFD200D0ACE1 /* Paris_Demeures_IpadTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 83F7E4261439EFD200D0ACE1 /* Paris_Demeures_IpadTests.h */; };
+		83F7E4291439EFD200D0ACE1 /* Paris_Demeures_IpadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F7E4281439EFD200D0ACE1 /* Paris_Demeures_IpadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83F7E41D1439EFD200D0ACE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83F7E3EC1439EFD100D0ACE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F7E3F41439EFD100D0ACE1;
+			remoteInfo = "Paris Demeures Ipad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83F7E3F51439EFD200D0ACE1 /* Paris Demeures Ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paris Demeures Ipad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F7E3F91439EFD200D0ACE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83F7E3FB1439EFD200D0ACE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83F7E3FD1439EFD200D0ACE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83F7E4011439EFD200D0ACE1 /* Paris Demeures Ipad-Info.plist */ = {isa = PBXFileReference; path = "Paris Demeures Ipad-Info.plist"; sourceTree = "<group>"; };
+		83F7E4031439EFD200D0ACE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83F7E4051439EFD200D0ACE1 /* Paris Demeures Ipad-Prefix.pch */ = {isa = PBXFileReference; path = "Paris Demeures Ipad-Prefix.pch"; sourceTree = "<group>"; };
+		83F7E4061439EFD200D0ACE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83F7E4081439EFD200D0ACE1 /* Paris_Demeures_IpadAppDelegate.h */ = {isa = PBXFileReference; path = Paris_Demeures_IpadAppDelegate.h; sourceTree = "<group>"; };
+		83F7E4091439EFD200D0ACE1 /* Paris_Demeures_IpadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Paris_Demeures_IpadAppDelegate.m; sourceTree = "<group>"; };
+		83F7E40C1439EFD200D0ACE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		83F7E40E1439EFD200D0ACE1 /* Paris_Demeures_IpadViewController.h */ = {isa = PBXFileReference; path = Paris_Demeures_IpadViewController.h; sourceTree = "<group>"; };
+		83F7E40F1439EFD200D0ACE1 /* Paris_Demeures_IpadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Paris_Demeures_IpadViewController.m; sourceTree = "<group>"; };
+		83F7E4121439EFD200D0ACE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Paris_Demeures_IpadViewController.xib; sourceTree = "<group>"; };
+		83F7E4191439EFD200D0ACE1 /* Paris Demeures IpadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paris Demeures IpadTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F7E4211439EFD200D0ACE1 /* Paris Demeures IpadTests-Info.plist */ = {isa = PBXFileReference; path = "Paris Demeures IpadTests-Info.plist"; sourceTree = "<group>"; };
+		83F7E4231439EFD200D0ACE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83F7E4251439EFD200D0ACE1 /* Paris Demeures IpadTests-Prefix.pch */ = {isa = PBXFileReference; path = "Paris Demeures IpadTests-Prefix.pch"; sourceTree = "<group>"; };
+		83F7E4261439EFD200D0ACE1 /* Paris_Demeures_IpadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Paris_Demeures_IpadTests.h; sourceTree = "<group>"; };
+		83F7E4281439EFD200D0ACE1 /* Paris_Demeures_IpadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Paris_Demeures_IpadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83F7E3F21439EFD100D0ACE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F7E3FA1439EFD200D0ACE1 /* UIKit.framework in Frameworks */,
+				83F7E3FC1439EFD200D0ACE1 /* Foundation.framework in Frameworks */,
+				83F7E3FE1439EFD200D0ACE1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F7E4151439EFD200D0ACE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F7E41A1439EFD200D0ACE1 /* UIKit.framework in Frameworks */,
+				83F7E41B1439EFD200D0ACE1 /* Foundation.framework in Frameworks */,
+				83F7E41C1439EFD200D0ACE1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83F7E3EA1439EFD100D0ACE1 = {
+			isa = PBXGroup;
+			children = (
+				83F7E3FF1439EFD200D0ACE1 /* Paris Demeures Ipad */,
+				83F7E41F1439EFD200D0ACE1 /* Paris Demeures IpadTests */,
+				83F7E3F81439EFD200D0ACE1 /* Frameworks */,
+				83F7E3F61439EFD200D0ACE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83F7E3F61439EFD200D0ACE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83F7E3F51439EFD200D0ACE1 /* Paris Demeures Ipad.app */,
+				83F7E4191439EFD200D0ACE1 /* Paris Demeures IpadTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83F7E3F81439EFD200D0ACE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83F7E3F91439EFD200D0ACE1 /* UIKit.framework */,
+				83F7E3FB1439EFD200D0ACE1 /* Foundation.framework */,
+				83F7E3FD1439EFD200D0ACE1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83F7E3FF1439EFD200D0ACE1 /* Paris Demeures Ipad */ = {
+			isa = PBXGroup;
+			children = (
+				83F7E4081439EFD200D0ACE1 /* Paris_Demeures_IpadAppDelegate.h */,
+				83F7E4091439EFD200D0ACE1 /* Paris_Demeures_IpadAppDelegate.m */,
+				83F7E40B1439EFD200D0ACE1 /* MainWindow.xib */,
+				83F7E40E1439EFD200D0ACE1 /* Paris_Demeures_IpadViewController.h */,
+				83F7E40F1439EFD200D0ACE1 /* Paris_Demeures_IpadViewController.m */,
+				83F7E4111439EFD200D0ACE1 /* Paris_Demeures_IpadViewController.xib */,
+				83F7E4001439EFD200D0ACE1 /* Supporting Files */,
+			);
+			path = "Paris Demeures Ipad";
+			sourceTree = "<group>";
+		};
+		83F7E4001439EFD200D0ACE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83F7E4011439EFD200D0ACE1 /* Paris Demeures Ipad-Info.plist */,
+				83F7E4021439EFD200D0ACE1 /* InfoPlist.strings */,
+				83F7E4051439EFD200D0ACE1 /* Paris Demeures Ipad-Prefix.pch */,
+				83F7E4061439EFD200D0ACE1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83F7E41F1439EFD200D0ACE1 /* Paris Demeures IpadTests */ = {
+			isa = PBXGroup;
+			children = (
+				83F7E4261439EFD200D0ACE1 /* Paris_Demeures_IpadTests.h */,
+				83F7E4281439EFD200D0ACE1 /* Paris_Demeures_IpadTests.m */,
+				83F7E4201439EFD200D0ACE1 /* Supporting Files */,
+			);
+			path = "Paris Demeures IpadTests";
+			sourceTree = "<group>";
+		};
+		83F7E4201439EFD200D0ACE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83F7E4211439EFD200D0ACE1 /* Paris Demeures IpadTests-Info.plist */,
+				83F7E4221439EFD200D0ACE1 /* InfoPlist.strings */,
+				83F7E4251439EFD200D0ACE1 /* Paris Demeures IpadTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83F7E3F41439EFD100D0ACE1 /* Paris Demeures Ipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F7E42C1439EFD200D0ACE1 /* Build configuration list for PBXNativeTarget "Paris Demeures Ipad" */;
+			buildPhases = (
+				83F7E3F11439EFD100D0ACE1 /* Sources */,
+				83F7E3F21439EFD100D0ACE1 /* Frameworks */,
+				83F7E3F31439EFD100D0ACE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Paris Demeures Ipad";
+			productName = "Paris Demeures Ipad";
+			productReference = 83F7E3F51439EFD200D0ACE1 /* Paris Demeures Ipad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83F7E4181439EFD200D0ACE1 /* Paris Demeures IpadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F7E42F1439EFD200D0ACE1 /* Build configuration list for PBXNativeTarget "Paris Demeures IpadTests" */;
+			buildPhases = (
+				83F7E4141439EFD200D0ACE1 /* Sources */,
+				83F7E4151439EFD200D0ACE1 /* Frameworks */,
+				83F7E4161439EFD200D0ACE1 /* Resources */,
+				83F7E4171439EFD200D0ACE1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83F7E41E1439EFD200D0ACE1 /* PBXTargetDependency */,
+			);
+			name = "Paris Demeures IpadTests";
+			productName = "Paris Demeures IpadTests";
+			productReference = 83F7E4191439EFD200D0ACE1 /* Paris Demeures IpadTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83F7E3EC1439EFD100D0ACE1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 83F7E3EF1439EFD100D0ACE1 /* Build configuration list for PBXProject "Paris Demeures Ipad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83F7E3EA1439EFD100D0ACE1;
+			productRefGroup = 83F7E3F61439EFD200D0ACE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83F7E3F41439EFD100D0ACE1 /* Paris Demeures Ipad */,
+				83F7E4181439EFD200D0ACE1 /* Paris Demeures IpadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83F7E3F31439EFD100D0ACE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F7E4041439EFD200D0ACE1 /* InfoPlist.strings in Resources */,
+				83F7E40D1439EFD200D0ACE1 /* MainWindow.xib in Resources */,
+				83F7E4131439EFD200D0ACE1 /* Paris_Demeures_IpadViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F7E4161439EFD200D0ACE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F7E4241439EFD200D0ACE1 /* InfoPlist.strings in Resources */,
+				83F7E4271439EFD200D0ACE1 /* Paris_Demeures_IpadTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83F7E4171439EFD200D0ACE1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83F7E3F11439EFD100D0ACE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F7E4071439EFD200D0ACE1 /* main.m in Sources */,
+				83F7E40A1439EFD200D0ACE1 /* Paris_Demeures_IpadAppDelegate.m in Sources */,
+				83F7E4101439EFD200D0ACE1 /* Paris_Demeures_IpadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F7E4141439EFD200D0ACE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F7E4291439EFD200D0ACE1 /* Paris_Demeures_IpadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83F7E41E1439EFD200D0ACE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83F7E3F41439EFD100D0ACE1 /* Paris Demeures Ipad */;
+			targetProxy = 83F7E41D1439EFD200D0ACE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83F7E4021439EFD200D0ACE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F7E4031439EFD200D0ACE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83F7E40B1439EFD200D0ACE1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F7E40C1439EFD200D0ACE1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		83F7E4111439EFD200D0ACE1 /* Paris_Demeures_IpadViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F7E4121439EFD200D0ACE1 /* en */,
+			);
+			name = Paris_Demeures_IpadViewController.xib;
+			sourceTree = "<group>";
+		};
+		83F7E4221439EFD200D0ACE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F7E4231439EFD200D0ACE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83F7E42A1439EFD200D0ACE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		83F7E42B1439EFD200D0ACE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		83F7E42D1439EFD200D0ACE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paris Demeures Ipad/Paris Demeures Ipad-Prefix.pch";
+				INFOPLIST_FILE = "Paris Demeures Ipad/Paris Demeures Ipad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83F7E42E1439EFD200D0ACE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paris Demeures Ipad/Paris Demeures Ipad-Prefix.pch";
+				INFOPLIST_FILE = "Paris Demeures Ipad/Paris Demeures Ipad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		83F7E4301439EFD200D0ACE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Paris Demeures Ipad.app/Paris Demeures Ipad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paris Demeures IpadTests/Paris Demeures IpadTests-Prefix.pch";
+				INFOPLIST_FILE = "Paris Demeures IpadTests/Paris Demeures IpadTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		83F7E4311439EFD200D0ACE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Paris Demeures Ipad.app/Paris Demeures Ipad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paris Demeures IpadTests/Paris Demeures IpadTests-Prefix.pch";
+				INFOPLIST_FILE = "Paris Demeures IpadTests/Paris Demeures IpadTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83F7E3EF1439EFD100D0ACE1 /* Build configuration list for PBXProject "Paris Demeures Ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F7E42A1439EFD200D0ACE1 /* Debug */,
+				83F7E42B1439EFD200D0ACE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F7E42C1439EFD200D0ACE1 /* Build configuration list for PBXNativeTarget "Paris Demeures Ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F7E42D1439EFD200D0ACE1 /* Debug */,
+				83F7E42E1439EFD200D0ACE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83F7E42F1439EFD200D0ACE1 /* Build configuration list for PBXNativeTarget "Paris Demeures IpadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F7E4301439EFD200D0ACE1 /* Debug */,
+				83F7E4311439EFD200D0ACE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83F7E3EC1439EFD100D0ACE1 /* Project object */;
+}
