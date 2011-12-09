@@ -101,7 +101,7 @@
 		835E09CB1439F9D4001102E1 /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 835E09CA1439F9D4001102E1 /* libxml2.2.7.3.dylib */; };
 		835E09CD1439F9ED001102E1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835E09CC1439F9ED001102E1 /* CoreLocation.framework */; };
 		835E09CF1439F9F3001102E1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835E09CE1439F9F3001102E1 /* MapKit.framework */; };
-		8384A981145B089E0035D94D /* ParisDemeures.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 8384A980145B089E0035D94D /* ParisDemeures.sqlite */; };
+		8384A981145B089E0035D94D /* Paris_Demeures_Ipad.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 8384A980145B089E0035D94D /* Paris_Demeures_Ipad.sqlite */; };
 		8388D0EC145860CB0008D272 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8388D0EB145860CB0008D272 /* libz.1.2.5.dylib */; };
 		838999331445CA0B0076F790 /* m2-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 8389992D1445CA0B0076F790 /* m2-down.png */; };
 		838999341445CA0B0076F790 /* m2-middle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8389992E1445CA0B0076F790 /* m2-middle.png */; };
@@ -309,7 +309,7 @@
 		835E09CA1439F9D4001102E1 /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
 		835E09CC1439F9ED001102E1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		835E09CE1439F9F3001102E1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		8384A980145B089E0035D94D /* ParisDemeures.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ParisDemeures.sqlite; sourceTree = "<group>"; };
+		8384A980145B089E0035D94D /* Paris_Demeures_Ipad.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Paris_Demeures_Ipad.sqlite; sourceTree = "<group>"; };
 		8388D0EB145860CB0008D272 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		8389992D1445CA0B0076F790 /* m2-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "m2-down.png"; sourceTree = "<group>"; };
 		8389992E1445CA0B0076F790 /* m2-middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "m2-middle.png"; sourceTree = "<group>"; };
@@ -675,7 +675,7 @@
 		835E095A1439F1E2001102E1 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				8384A980145B089E0035D94D /* ParisDemeures.sqlite */,
+				8384A980145B089E0035D94D /* Paris_Demeures_Ipad.sqlite */,
 				835E095C1439F202001102E1 /* Paris_Demeures_Ipad.xcdatamodel */,
 			);
 			name = CoreData;
@@ -1095,7 +1095,7 @@
 				831F37261456F17000AC371B /* ventes.png in Resources */,
 				831F37271456F17000AC371B /* Prestige.png in Resources */,
 				831F37281456F17000AC371B /* locations.png in Resources */,
-				8384A981145B089E0035D94D /* ParisDemeures.sqlite in Resources */,
+				8384A981145B089E0035D94D /* Paris_Demeures_Ipad.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
